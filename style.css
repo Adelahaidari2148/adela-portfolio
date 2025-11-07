@@ -1,0 +1,259 @@
+/* Navigation Bar Styles */
+/* === Color Theme Variables === */
+:root {
+  --main-color: #ff7f50;  /* Coral/Orange */
+  --dark-color: #1a1a1a;  /* Deep Charcoal */
+  --light-bg: #f9f9f9;    /* Soft Light Gray */
+  --accent-color: #e86c6c; /* Soft Pink */
+}
+
+header {
+  background-color: var(--dark-color);
+}
+
+header p {
+  color: var(--accent-color);
+}
+
+main h2 {
+  color: var(--main-color);
+}
+
+footer {
+  background-color: var(--dark-color);
+}
+
+body {
+  background-color: var(--light-bg);
+}
+section {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 50px 20px;
+  margin: 40px auto;
+  max-width: 800px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+}
+
+header {
+  background: linear-gradient(135deg, var(--dark-color), var(--accent-color));
+}
+
+.navbar {
+  background-color: var(--accent-color);
+  padding: 15px 0;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+.navbar a:hover {
+  color: var(--main-color);
+  transform: scale(1.05);
+}
+
+/* === General Page Styling === */
+
+/* General Page Styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+}
+
+/* Header Section */
+header {
+  background-color: #20232a;
+  padding: 60px 20px;
+}
+
+header h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+header p {
+  color: #f7b6b2;
+  font-size: 1.2em;
+}
+
+/* Main Section */
+main {
+  background-color: white;
+  border-radius: 10px;
+  padding: 40px;
+  margin: 40px auto;
+  max-width: 800px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+  background-color: #20232a;
+  color: white;
+  padding: 15px 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff; /* white background */
+  color: #333333; /* dark grey text */
+  margin: 0;
+  padding: 0;
+}
+
+/* === Header Section === */
+header {
+  background-color: #0b1f3a; /* navy */
+  color: white;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #f4c2c2; /* soft coral text */
+}
+
+/* === Main Content === */
+main {
+  text-align: center;
+}
+
+main h2 {
+  color: #ff7f50; /* coral/orange */
+  margin-top: 20px;
+}
+
+/* === Footer === */
+footer {
+  background-color: #0b1f3a;
+  color: white;
+  font-size: 0.9rem;
+}
+
+
+/* === View My Projects Button === */
+.btn-view {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background-color: var(--main-color);
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.btn-view:hover {
+  background-color: var(--accent-color);
+  color: var(--dark-color);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+}
+
+/* === Logo Image === */
+.logo-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+/* === Hero Section === */
+.hero-section {
+  position: relative;
+  height: 80vh;
+  overflow: hidden;
+}
+
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(70%);
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* === About Image === */
+.about-img {
+  width: 250px;
+  border-radius: 15px;
+  margin: 20px 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* === Project Images === */
+.project-img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.project-img:hover {
+  transform: scale(1.05);
+}
+
+/* === Resume Section === */
+.resume-frame {
+  width: 100%;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* === Navbar Fix === */
+.nav-links li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.nav-links a:hover {
+  color: var(--main-color);
+}
+
+/* === Contact Section === */
+#contact a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
